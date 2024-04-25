@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DecryptFragment">
+
+    <TextView
+        android:id="@+id/decrypt_TXT_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Decrypt data from image"
+        android:layout_alignParentStart="true"
+        android:layout_margin="10dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#00BCD4"
+        />
+
+    <ImageView
+        android:id="@+id/decrypt_img_attached"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/decrypt_TXT_title"
+        android:src="@drawable/attach_image"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerInside"
+        />
+
+    <TextView
+        android:id="@+id/decrypt_TXT_encryptedData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/decrypt_img_attached"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp"
+        android:text=""
+        android:textColor="#2196F3"
+        android:textSize="20sp"
+        />
+
+</RelativeLayout>
