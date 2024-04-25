@@ -1,4 +1,4 @@
-** ImgSecure **
+ImgSecure
 
 **ImgSecure** is an intuitive Java-based Android application that empowers users with the ability to encrypt sensitive data into images and decrypt the data from the images when needed. This application utilizes steganographic principles to ensure that the data remains invisible within the image yet is retrievable through the decryption process.
 
