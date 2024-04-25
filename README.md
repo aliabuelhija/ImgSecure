@@ -21,7 +21,36 @@ Ensure you have the following installed:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/EncryptDecryptImageData.git](https://github.com/aliabuelhija/ImgSecure.git
+git clone https://github.com/aliabuelhija/ImgSecure.git
 ```
 2. Open the project in Android Studio.
 3. Build and run the application.
+
+## Usage
+
+**Open the app** and select either the 'Encrypt' or 'Decrypt' option as needed.
+
+### For encryption:
+- Choose an image.
+- Input the data you wish to hide.
+- Save the encrypted image.
+
+### For decryption:
+- Load the encrypted image.
+- The app will reveal and display the hidden data.
+
+## Contributing
+
+Contributions make the open-source community a place of learning, inspiration, and creation. Any contributions you make are **greatly appreciated**.
+
+1. Fork the project.
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`).
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+4. Push to the branch (`git push origin feature/AmazingFeature`).
+5. Open a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the `LICENSE` file for details.
+
+
