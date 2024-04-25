@@ -49,8 +49,4 @@ Contributions make the open-source community a place of learning, inspiration, a
 4. Push to the branch (`git push origin feature/AmazingFeature`).
 5. Open a pull request.
 
-## License
-
-This project is licensed under the MIT License - see the `LICENSE` file for details.
-
 
